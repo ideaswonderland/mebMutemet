@@ -19,9 +19,12 @@ Güncelleme kontrolü: tamamen isteğe bağlı, yalnızca sürüm numarası kar�
 
 📦 Kurulum
 
-git clone https://github.com/kullaniciadi/mebmutemet.git
-cd mebmutemet
+git clone https://github.com/ideaswonderland/mebMutemet.git
+
+cd mebMutemet
+
 pip install -r requirements.txt
+
 python main.py
 
 🔒 KVKK ve Güvenlik
