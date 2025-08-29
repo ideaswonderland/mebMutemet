@@ -19,9 +19,18 @@ Güncelleme kontrolü: tamamen isteğe bağlı, yalnızca sürüm numarası kar�
 
 📦 Kurulum
 
+<<<<<<< HEAD
 git clone https://github.com/kullaniciadi/mebmutemet.git
 cd mebmutemet
 pip install -r requirements.txt
+=======
+git clone https://github.com/kullaniciadi/mebMutemet.git
+
+cd mebMutemet
+
+pip install -r requirements.txt
+
+>>>>>>> 84d2e4f4f36f5def8921e173251b0b31abd49e5d
 python main.py
 
 🔒 KVKK ve Güvenlik
@@ -50,11 +59,19 @@ Eğitim ve danışmanlık hizmetleri
 
 Öncelikli güncelleme ve teknik destek
 
+<<<<<<< HEAD
 Kurumsal çözümler için iletişim: [senin e-posta adresin]
+=======
+Kurumsal çözümler için iletişim: [leventaydin.ce@gmail.com]
+>>>>>>> 84d2e4f4f36f5def8921e173251b0b31abd49e5d
 
 📜 Lisans
 
 Açık kaynak sürüm: MIT Lisansı
  (bireysel kullanım için)
 
+<<<<<<< HEAD
 Kurumsal sürüm: Özel lisans ve hizmet anlaşması ile sunulmaktadır.
+=======
+Kurumsal sürüm: Özel lisans ve hizmet anlaşması ile sunulmaktadır.
+>>>>>>> 84d2e4f4f36f5def8921e173251b0b31abd49e5d
