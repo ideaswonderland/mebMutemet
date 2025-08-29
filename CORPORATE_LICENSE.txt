@@ -1,0 +1,22 @@
+Kurumsal Kullanım Lisansı
+-------------------------
+
+MEBMutemet yazılımının temel sürümü bireysel kullanım için MIT Lisansı ile
+açık kaynak olarak sunulmaktadır. Ancak kurumsal kullanımda aşağıdaki şartlar geçerlidir:
+
+1. Kurumsal kullanım, bakım, eğitim ve teknik destek için geliştirici ile lisans
+   anlaşması yapılması zorunludur.
+
+2. Kurumlara özel eklentiler ve modüller (örneğin: toplu işlem desteği,
+   raporlama özellikleri, otomatik güncelleme, özel Excel şablonları vb.)
+   yalnızca kurumsal sürümde sunulmaktadır.
+
+3. Kurumsal sürüm, geliştirici ile yapılacak ayrı bir sözleşme çerçevesinde
+   sağlanır ve bu sürüm kapalı kaynak olabilir.
+
+4. Yazılımın kurumsal kullanımında, kurum tarafından sağlanan verilerin doğruluğu
+   ve güvenliği kurumun kendi sorumluluğundadır. Geliştirici, kurumsal kullanım
+   sırasında oluşabilecek hatalardan veya yanlış beyanlardan sorumlu tutulamaz.
+
+5. Kurumsal lisans ve destek için iletişim:
+   [Levent Aydın / leventaydin.ce@gmail.com]
