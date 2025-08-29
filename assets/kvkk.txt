@@ -1,0 +1,47 @@
+<h2>KVKK Aydınlatma Metni</h2>
+<hr>
+
+<p><b>MEBMutemet Yazılımı</b>, temel olarak tamamen çevrimdışı (offline) çalışmaktadır. 
+Kişisel Verilerin Korunması Kanunu (6698 sayılı KVKK) kapsamında, 
+kullanıcıların verilerinin gizliliği ve güvenliği aşağıdaki şekilde güvence altına alınmaktadır:</p>
+
+<h3>1. Veri Toplama</h3>
+<ul>
+  <li>Program kullanıcıya ait hiçbir kişisel veriyi toplamaz, saklamaz veya işleme tabi tutmaz.</li>
+  <li>Kullanıcı tarafından girilen bilgiler yalnızca yerel bilgisayarda Excel dosyası üretmek için kullanılır.</li>
+</ul>
+
+<h3>2. Veri Saklama</h3>
+<ul>
+  <li>Girilen veriler internet ortamına aktarılmaz.</li>
+  <li>Hiçbir bilgi üçüncü kişilerle, kurumlarla veya servislerle paylaşılmaz.</li>
+  <li>Program çevrimdışı çalıştığından dolayı veriler yalnızca kullanıcının bilgisayarında kalır.</li>
+</ul>
+
+<h3>3. Güncelleme Denetimi (Hibrit Çözüm)</h3>
+<ul>
+  <li>Program, kullanıcı isterse “Güncellemeleri Denetle” seçeneği ile internet üzerinden <b>yalnızca sürüm bilgisi</b> kontrolü yapabilir.</li>
+  <li>Bu işlem sırasında hiçbir kişisel veri gönderilmez veya saklanmaz.</li>
+  <li>Sadece mevcut sürüm ile en güncel sürüm bilgisi karşılaştırılır.</li>
+  <li>Kullanıcı bu özelliği kullanmak zorunda değildir; güncelleme denetimi tamamen isteğe bağlıdır.</li>
+</ul>
+
+<h3>4. Veri İşleme Amacı</h3>
+<p>Kullanıcının girdiği bilgiler yalnızca resmi belgelerin hazırlanması amacıyla Excel şablonlarına işlenir. 
+Bunun dışında herhangi bir kullanım söz konusu değildir.</p>
+
+<h3>5. Veri Sorumluluğu</h3>
+<ul>
+  <li>Yazılım herhangi bir kuruma veya kişiye veri sorumlusu sıfatı yüklemez.</li>
+  <li>Yazılım yalnızca bir hesaplama ve belge üretim aracıdır.</li>
+  <li>Kullanıcı, girdiği bilgilerin doğruluğundan ve kendi kullanımından sorumludur.</li>
+</ul>
+
+<h3>6. Güvenlik</h3>
+<ul>
+  <li>Programın çalışması sırasında (güncelleme denetimi hariç) internet bağlantısı gerekmez.</li>
+  <li>Güncelleme denetimi yalnızca sürüm numarası karşılaştırması yapar ve veri güvenliğini ihlal etmez.</li>
+</ul>
+
+<p><i>Bu yazılım yalnızca kullanıcıya kolaylık sağlamak amacıyla geliştirilmiş olup, 
+KVKK kapsamında kişisel veri toplama, işleme veya paylaşma faaliyetinde bulunmamaktadır.</i></p>
