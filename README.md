@@ -16,8 +16,8 @@ Yazılım, **tamamen çevrimdışı (offline)** çalışır ve **KVKK’ya tam u
 ---
 
 ## 📦 Kurulum
-- git clone https://github.com/kullaniciadi/mebmutemet.git
-- cd mebmutemet
+- git clone https://github.com/ideaswonderland/mebMutemet.git
+- cd mebMutemet
 - pip install -r requirements.txt
 - python main.py
 
@@ -60,5 +60,5 @@ Projeye katkıda bulunmak isterseniz Pull Request gönderebilir veya Issues kıs
 
 
 ## 📧 İletişim
-Geliştirici: **[Levent Aydın]**  
-E-posta: **[leventaydin.ce@gmail.com]**
+Geliştirici: **Levent Aydın**  
+E-posta: **leventaydin.ce@gmail.com**
