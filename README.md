@@ -18,9 +18,13 @@ KVKK uyumlu → hiçbir kişisel veri toplanmaz, saklanmaz, paylaşılmaz
 Güncelleme kontrolü: tamamen isteğe bağlı, yalnızca sürüm numarası karşılaştırması yapar
 
 📦 Kurulum
+
 git clone https://github.com/kullaniciadi/mebMutemet.git
+
 cd mebMutemet
+
 pip install -r requirements.txt
+
 python main.py
 
 🔒 KVKK ve Güvenlik
