@@ -1,8 +1,7 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QMessageBox
+from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QMessageBox, QPushButton, QTextBrowser, QDialog
 from PyQt6.QtGui import QIcon, QAction, QPixmap
 from PyQt6.QtCore import Qt
-from PyQt6.QtWidgets import QDialog, QVBoxLayout, QTextEdit, QPushButton, QTextBrowser
 from ui_main import EmekliYollukApp
 from ui_surekli import SurekliYollukApp
 from ui_gecici import GeciciYollukApp
@@ -38,16 +37,13 @@ class MainWindow(QMainWindow):
         gecici_action.triggered.connect(self.show_gecici)
         yolluk_menu.addAction(gecici_action)
         
-        # KVKK menüsü
-        kvkk_action = QAction("KVKK", self)
-        kvkk_action.triggered.connect(self.show_kvkk)
-        menubar.addAction(kvkk_action)
+        #Raporlar menüsü
+        rapor_menu = menubar.addMenu("Raporlar")
+        rapor_menu.setDisabled(True)
+        # Yardım menüsü
+        help_menu = menubar.addMenu("Yardım")
         
-        #┌Güncelleme Denetleme
-        update_action = QAction("Güncellemeleri Denetle", self)
-        update_action.triggered.connect(self.check_updates)
-        menubar.addAction(update_action)
-
+        
 
         # İlk açılışta ana sayfayı göster
         self.show_home()
@@ -68,11 +64,22 @@ class MainWindow(QMainWindow):
         welcome_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         welcome_label.setStyleSheet("font-size: 13pt; font-weight: bold; margin-top: 15px;")
 
+        update_button = QPushButton("Güncellemeleri Denetle")
+        update_button.setStyleSheet("font-size: 11pt; padding: 6px;")
+        update_button.clicked.connect(self.check_updates)  # güncelleme fonksiyonuna bağla
+        
+        btn_kvkk = QPushButton("KVKK Aydınlatma Metni")
+        btn_kvkk.setStyleSheet("font-size: 11pt; padding: 6px;")
+        btn_kvkk.clicked.connect(self.show_kvkk)
+
         layout.addWidget(logo)
         layout.addWidget(welcome_label)
+        layout.addWidget(update_button)
+        layout.addWidget(btn_kvkk)
         welcome_widget.setLayout(layout)
 
         self.setCentralWidget(welcome_widget)
+        self.adjustSize()
         
     def show_kvkk(self):
         dialog = QDialog(self)
@@ -124,6 +131,8 @@ class MainWindow(QMainWindow):
 
     def show_gecici(self):
         self.setCentralWidget(GeciciYollukApp())
+
+
 
 
 if __name__ == "__main__":
